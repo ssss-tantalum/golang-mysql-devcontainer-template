@@ -40,8 +40,8 @@ services:
     environment:
       - PMA_ARBITRARY=1
       - PMA_HOST=db
-      - PMA_USER=mitsu
-      - PMA_PASSWORD=secret
+      - PMA_USER=root
+      - PMA_PASSWORD=password
     links:
       - db
     ports:
